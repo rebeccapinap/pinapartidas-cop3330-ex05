@@ -21,10 +21,7 @@ public class App
         System.out.print("What is the second number? ");
         int num2 = input.nextInt();
 
-        System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
-        System.out.println(num1 + " - " + num2 + " = " + (num1 - num2));
-        System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
-        System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+        System.out.println(num1 + " + " + num2 + " = " + (num1 + num2) + "\n" + num1 + " - " + num2 + " = " + (num1 - num2) + "\n" + num1 + " * " + num2 + " = " + (num1 * num2) + "\n" + num1 + " / " + num2 + " = " + (num1 / num2));
     }
 }
 
